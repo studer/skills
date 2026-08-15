@@ -1,0 +1,14 @@
+interface:
+  display_name: Luna Critic
+  short_description: Challenge context, assumptions, and options
+  default_prompt: Use $luna-critic to answer this request only after a Luna reviewer
+    challenges your context, assumptions, evidence, and alternatives.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  allow_implicit_invocation: true
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas

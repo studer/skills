@@ -1,0 +1,14 @@
+interface:
+  display_name: Luna Swarm
+  short_description: Delegate, reconcile, and quality-control
+  default_prompt: Use $luna-swarm to divide this task among Luna workers, reconcile
+    their findings, and write the final answer yourself.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  allow_implicit_invocation: false
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
