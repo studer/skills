@@ -11,7 +11,7 @@ Keep the current primary agent as coordinator, integrator and final author. Appl
 
 Choose independent assignments whose benefit justifies delegation overhead, usually two to four, within available concurrency. If fewer than two useful workstreams exist, handle the task directly and briefly explain why. Keep tightly coupled decisions and cross-cutting integration with the primary agent.
 
-Spawn ordinary workers explicitly with `model: gpt-5.6-luna` and `reasoning_effort: max`. Use no inherited conversation or a bounded fork compatible with explicit routing. Do not depend on a named agent or global defaults. If delegation tools or explicit routing are unavailable, do not simulate independent workers or review, or claim this workflow completed. Explain the limitation and ask about an available alternative unless the user has already authorised one; never silently substitute.
+Spawn ordinary workers explicitly with `model: gpt-6-luna` and `reasoning_effort: max`. Use no inherited conversation or a bounded fork compatible with explicit routing. Do not depend on a named agent or global defaults. If delegation tools or explicit routing are unavailable, do not simulate independent workers or review, or claim this workflow completed. Explain the limitation and ask about an available alternative unless the user has already authorised one; never silently substitute.
 
 Give each worker a bounded task, relevant context and evidence, success criteria, and permitted files or actions. Require findings with sources or file references, unresolved issues and relevant checks. Instruct workers not to delegate further or author the final response. Preserve the parent task's safety, permission, scope and source-quality requirements in every assignment.
 

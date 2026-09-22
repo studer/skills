@@ -1,6 +1,6 @@
 # Luna Skills for Codex
 
-Two portable Codex skills that use GPT-5.6 Luna at Max reasoning for delegated work while keeping the primary agent responsible for synthesis, judgement and the final response.
+Two portable Codex skills that use GPT-6 Luna at Max reasoning for delegated work while keeping the primary agent responsible for synthesis, judgement and the final response.
 
 ## Included skills
 
@@ -31,7 +31,7 @@ When used together, Swarm completes its work first and Critic reviews the integr
 ## Requirements
 
 - A current Codex release with subagent support.
-- Access to `gpt-5.6-luna` with `max` reasoning effort.
+- Access to `gpt-6-luna` with `max` reasoning effort.
 
 The skills select Luna Max explicitly for every subagent. They do not require a custom agent file or global subagent model defaults, and they keep whichever primary model you selected. The runtime must expose explicit per-spawn model and effort controls; a skill cannot add missing runtime capabilities.
 

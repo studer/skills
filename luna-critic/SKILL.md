@@ -19,7 +19,7 @@ Provide the reviewer with the exact request, relevant context, candidate, assump
 
 ## Obtain one independent review
 
-Spawn one fresh ordinary subagent with `model: gpt-5.6-luna` and `reasoning_effort: max`, using no inherited conversation or a bounded fork compatible with explicit routing. Do not depend on a named agent or global defaults. If delegation tools or explicit routing are unavailable, do not simulate independent workers or review, or claim this workflow completed. Explain the limitation and ask about an available alternative unless the user has already authorised one; never silently substitute.
+Spawn one fresh ordinary subagent with `model: gpt-6-luna` and `reasoning_effort: max`, using no inherited conversation or a bounded fork compatible with explicit routing. Do not depend on a named agent or global defaults. If delegation tools or explicit routing are unavailable, do not simulate independent workers or review, or claim this workflow completed. Explain the limitation and ask about an available alternative unless the user has already authorised one; never silently substitute.
 
 Ask the reviewer to check:
 
